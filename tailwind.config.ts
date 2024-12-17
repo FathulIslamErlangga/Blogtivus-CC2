@@ -9,10 +9,18 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primaryDark: "#191A23",
+        greenty: "#B9FF66",
+        primaryWhite: "#F3F3F3",
+      },
+      minWidth: {
+        md: "900px",
+        sm: "550px", // Tambahkan nilai kustom
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: [],
+  },
 } satisfies Config;
