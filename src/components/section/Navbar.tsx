@@ -29,7 +29,7 @@ const Navbar = () => {
       <div className="flex justify-between w-full items-center relative">
         <div className="brands px-10 lg:px-20 flex flex-wrap py-7">
           <Image
-            src="/svg/icon.svg"
+            src="/svg/blogtivus.svg"
             alt=""
             width={25}
             height={25}
