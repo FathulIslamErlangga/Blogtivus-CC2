@@ -9,7 +9,7 @@ const ContactUs = () => {
           Contact Us
         </h1>
         <div className="flex-wrap gap-10  pt-10 place-self-center flex lg:mx-5 ">
-          <Link href="https://mail.google.com/mail/u/1/#inbox?compose=DmwnWrRmTgSQBMzXHBgWvDBrzVRJDZvtpwdGqsGccvhCZCcCBzxcPDVcBczDfkHKPXmsgwFlKkRQ">
+          <Link href="mailto:fathulislamerlangga@gmail.com?subject=Hello&body=This%20is%20a%20test%20message">
             <Image
               src="/images/email.png"
               alt=""

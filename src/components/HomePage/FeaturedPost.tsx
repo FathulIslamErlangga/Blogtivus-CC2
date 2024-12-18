@@ -39,10 +39,7 @@ const FeaturedPost = ({ blogs }: BlogProps) => {
                     height={250}
                   />
                   <div className="card-body">
-                    <h2 className="card-title">
-                      {blog.title}
-                      {blog.id}
-                    </h2>
+                    <h2 className="card-title">{blog.title}</h2>
                     <p>
                       {blog.contents
                         .find((content) => content.type === "text")
